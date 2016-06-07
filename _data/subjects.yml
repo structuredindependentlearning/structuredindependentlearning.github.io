@@ -1,0 +1,16 @@
+- id: physics20
+  url: physics20
+  image: openclipart/Science-Explosion.svg
+  title: Physics 20
+- id: physics30
+  url: physics30
+  image: openclipart/Science-Explosion.svg
+  title: Physics 30
+- id: math
+  url: math
+  title: Math is Numerous
+  image: openclipart/pythagorus.svg
+- id: chemistry
+  url: chemistry
+  image: openclipart/Science-Explosion.svg
+  title: Chem is Organic

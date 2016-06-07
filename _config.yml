@@ -7,10 +7,10 @@
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Site Title"
+title                    : "Structured Independent Learning"
 title_separator          : "-"
-name                     : "Your Name"
-description              : "An amazing website."
+name                     : "Dr. Ron Licht"
+description              : "Structured Independent Learning."
 url                      : # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 gh_repo                  :
@@ -61,10 +61,10 @@ google_ad_slot           :
 
 # Site Author
 author:
-  name             : "Your Name"
-  avatar           : "bio-photo.jpg"
-  bio              : "I am an amazing person."
-  location         : "Somewhere"
+  name             : "Dr. Ron Licht"
+  avatar           : "RonLicht2.jpg"
+  bio              : "Structured Independent Learning"
+  location         : "Calgary, Alberta, Canada"
   email            :
   uri              :
   bitbucket        :
@@ -197,6 +197,17 @@ tag_archive:
 #     category: /categories/:name/
 #     tag: /tags/:name/
 
+collections:
+   lessons:
+      output: true
+      permalink: /lessons/:path
+
+defaults:
+  - scope:
+      path: ""
+      type: lessons
+    values:
+      layout: archive-lesson
 
 # HTML Compression
 # - http://jch.penibelst.de/
@@ -204,3 +215,4 @@ compress_html:
   clippings: all
   ignore:
     envs: development
+

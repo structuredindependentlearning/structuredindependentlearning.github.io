@@ -7,6 +7,7 @@
 {% endif %}
 
 <div class="{{ include.type | default: "list" }}__item">
+    <h3>{{ teaser }}</h3>
   {% if post.link %}
     <a href="{{ post.link }}" target="_blank">
   {% else %}

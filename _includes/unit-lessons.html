@@ -1,0 +1,90 @@
+{% if (page.header.overlay_color or page.header.overlay_image) or page.header.image %}
+  {% include page__hero.html %}
+{% endif %}
+
+{% assign path = page.url | split:"/" %}
+
+{% assign subject = path[2] %}
+
+{% assign lessonitem = path[3] | split:"-" %}
+{% assign unitnum = lessonitem[1] %}
+
+{% assign units = "" | split:"|"  %}
+{% assign lessons = "" | split:"|"  %}
+
+{% for lesson in site.data.lessons %}
+    {% assign subj = lesson.subject | split:" " | join:"" %}
+    {% if subj == subject %}
+        {% assign units = units | push:lesson.unit %}
+    {% endif %}
+{% endfor %}
+{% assign units = units | uniq %}
+
+{% assign loop_index = 0 %}
+{% for unt in units %}
+   {% capture loop_index %}{{ loop_index | plus:1 }}{% endcapture %}
+   {% if loop_index == unitnum %}
+      {% assign unitname = unt %}
+   {% endif %}
+{% endfor %}
+
+{% for lesson in site.data.lessons %}
+    {% assign subj = lesson.subject | split:" " | join:"" %}
+    {% if subj == subject and unitname == lesson.unit %}
+        {% assign lessons = lessons | push: lesson.id %}
+    {% endif %}
+{% endfor %}
+
+{% if page.url != "/" and site.breadcrumbs %}
+  {% unless paginator %}
+    {% include breadcrumbs.html %}
+  {% endunless %}
+{% endif %}
+
+{% assign subjpath = subject | split:" " | join: "" %}
+
+<div class="archive">
+  </div>
+
+<div id="main" role="main">
+
+    {% unless page.header.overlay_color or page.header.overlay_image %}
+      <h1 class="page__title">{{ subject }}: {{ unitname }}</h1>
+    {% endunless %}
+    {{ content }}
+
+  {% assign icon = false %}
+  <div class="grid__wrapper"><ul>
+  {% assign nlesson = 1 %}
+  {% for lessonid in lessons %}
+
+    {% for lessonitem in site.data.lessons %}
+      {% assign subj = lessonitem.subject | split:" " | join:"" %}
+      {% if subj == subject and lessonitem.id == lessonid  %}
+         {% assign lesson = lessonitem %}
+      {% endif %}
+    {% endfor %}
+
+    {% assign lessontitle = lesson.title %}
+
+    <div class="grid__item boxed__item">
+    <a href='/lessons/{{ subjpath }}/lesson-{{unitnum}}-{{ nlesson }}' style="text-decoration:none;">
+    <article class="archive__item" itemscope itemtype="http://schema.org/CreativeWork">
+      {% if include.type == "grid" and post.image != blank %}
+        <div class="archive__item-teaser">
+          <img src=
+              "{{ post.image | prepend: "/images/" | prepend: base_path }}"
+            alt="">
+        </div>
+      {% endif %}
+      <h3>{{ lessontitle }}</h3>
+      {% if extra %}
+      <h2 class="archive__item-title" itemprop="headline">{{ unittitle | markdownify | remove: "<p>" | remove: "</p>" }}{% if icon %}<i class="fa fa-star" aria-hidden="true"></i>{% endif %}</h2>
+      {% endif %}
+    </article>
+     </a>
+      </div>
+     {% assign nlesson = nlesson | plus:1 %}
+  {% endfor %}
+  </ul></div>
+</div>

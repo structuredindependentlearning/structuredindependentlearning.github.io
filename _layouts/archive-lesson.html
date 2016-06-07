@@ -1,0 +1,12 @@
+---
+layout: default
+---
+
+{% assign path = page.url | split:"/" %}
+{% assign subjpath = path[3] | split:"-" %}
+{% if subjpath[0] == 'unit' %}
+    {% include unit-lessons.html %}
+{% else %}
+    {% include unit-lesson.html %}
+{% endif %}
+

@@ -1,0 +1,294 @@
+- id: L00
+  subject: Physics 30
+- id: L01
+  subject: Physics 30
+- id: L02
+  subject: Physics 30
+- id: L03
+  subject: Physics 30
+- id: L04
+  subject: Physics 30
+- id: L05
+  subject: Physics 30
+- id: L06
+  subject: Physics 30
+- id: L07
+  subject: Physics 30
+- id: L08
+  subject: Physics 30
+- id: L09
+  subject: Physics 30
+- id: L10
+  subject: Physics 30
+- id: L11
+  subject: Physics 30
+- id: L12
+  subject: Physics 30
+- id: L13 activity
+  subject: Physics 30
+- id: L13
+  subject: Physics 30
+- id: L14
+  subject: Physics 30
+- id: L15
+  subject: Physics 30
+- id: L16
+  subject: Physics 30
+- id: L17
+  subject: Physics 30
+- id: L18
+  subject: Physics 30
+- id: L19 activity
+  subject: Physics 30
+- id: L19
+  subject: Physics 30
+- id: L20
+  subject: Physics 30
+- id: L21
+  subject: Physics 30
+- id: L22
+  subject: Physics 30
+- id: L23 activity
+  subject: Physics 30
+- id: L24
+  subject: Physics 30
+- id: L26
+  subject: Physics 30
+- id: L27
+  subject: Physics 30
+- id: L28
+  subject: Physics 30
+- id: L29
+  subject: Physics 30
+- id: L30
+  subject: Physics 30
+- id: L31
+  subject: Physics 30
+- id: L32
+  subject: Physics 30
+- id: L33
+  subject: Physics 30
+- id: L35
+  subject: Physics 30
+- id: L36
+  subject: Physics 30
+- id: L37
+  subject: Physics 30
+- id: L38
+  subject: Physics 30
+- id: L01
+  subject: Physics 20
+- id: L02
+  subject: Physics 20
+- id: L03
+  subject: Physics 20
+- id: L05
+  subject: Physics 20
+- id: L07
+  subject: Physics 20
+- id: L07H
+  subject: Physics 20
+- id: L08
+  subject: Physics 20
+- id: L08H
+  subject: Physics 20
+- id: L09
+  subject: Physics 20
+- id: L10
+  subject: Physics 20
+- id: L11
+  subject: Physics 20
+- id: L12
+  subject: Physics 20
+- id: L13
+  subject: Physics 20
+- id: L14
+  subject: Physics 20
+- id: L15
+  subject: Physics 20
+- id: L16
+  subject: Physics 20
+- id: L17
+  subject: Physics 20
+- id: L18
+  subject: Physics 20
+- id: L19
+  subject: Physics 20
+- id: L20
+  subject: Physics 20
+- id: L21
+  subject: Physics 20
+- id: L22
+  subject: Physics 20
+- id: L23
+  subject: Physics 20
+- id: L24
+  subject: Physics 20
+- id: L25
+  subject: Physics 20
+- id: L26
+  subject: Physics 20
+- id: L27
+  subject: Physics 20
+- id: L28
+  subject: Physics 20
+- id: L29
+  subject: Physics 20
+- id: L30
+  subject: Physics 20
+- id: L31
+  subject: Physics 20
+- id: L32
+  subject: Physics 20
+- id: L1-1
+  subject: Math 10c
+- id: L1-2
+  subject: Math 10c
+- id: L1-3
+  subject: Math 10c
+- id: L1-4
+  subject: Math 10c
+- id: L1-5
+  subject: Math 10c
+- id: L1-6
+  subject: Math 10c
+- id: L1-7
+  subject: Math 10c
+- id: L1-8
+  subject: Math 10c
+- id: L1-9
+  subject: Math 10c
+- id: L2-1
+  subject: Math 10c
+- id: L2-2
+  subject: Math 10c
+- id: L2-3
+  subject: Math 10c
+- id: L2-4
+  subject: Math 10c
+- id: L2-5
+  subject: Math 10c
+- id: L3-1
+  subject: Math 10c
+- id: L3-2
+  subject: Math 10c
+- id: L3-3
+  subject: Math 10c
+- id: L3-5
+  subject: Math 10c
+- id: L3-6
+  subject: Math 10c
+- id: L3-7
+  subject: Math 10c
+- id: L3-8
+  subject: Math 10c
+- id: L4-1
+  subject: Math 10c
+- id: L4-2
+  subject: Math 10c
+- id: L4-3
+  subject: Math 10c
+- id: L4-5
+  subject: Math 10c
+- id: L4-6
+  subject: Math 10c
+- id: L4-7
+  subject: Math 10c
+- id: L4-8
+  subject: Math 10c
+- id: L5-1
+  subject: Math 10c
+- id: L5-2
+  subject: Math 10c
+- id: L5-3
+  subject: Math 10c
+- id: L5-4
+  subject: Math 10c
+- id: L5-5
+  subject: Math 10c
+- id: L6-1
+  subject: Math 10c
+- id: L6-3
+  subject: Math 10c
+- id: L6-4
+  subject: Math 10c
+- id: L6-5
+  subject: Math 10c
+- id: L6-6
+  subject: Math 10c
+- id: L6-7
+  subject: Math 10c
+- id: L6-8
+  subject: Math 10c
+- id: L7-1
+  subject: Math 10c
+- id: L7-2
+  subject: Math 10c
+- id: L7-4
+  subject: Math 10c
+- id: L7-5
+  subject: Math 10c
+- id: L7-6
+  subject: Math 10c
+- id: L01
+  subject: Chemistry 20
+- id: L02
+  subject: Chemistry 20
+- id: L03
+  subject: Chemistry 20
+- id: L04
+  subject: Chemistry 20
+- id: L05
+  subject: Chemistry 20
+- id: L06
+  subject: Chemistry 20
+- id: L09
+  subject: Chemistry 20
+- id: L10
+  subject: Chemistry 20
+- id: L11
+  subject: Chemistry 20
+- id: L12
+  subject: Chemistry 20
+- id: L13
+  subject: Chemistry 20
+- id: L14
+  subject: Chemistry 20
+- id: L16
+  subject: Chemistry 20
+- id: L17
+  subject: Chemistry 20
+- id: L18
+  subject: Chemistry 20
+- id: L19 activity
+  subject: Chemistry 20
+- id: L20
+  subject: Chemistry 20
+- id: L21
+  subject: Chemistry 20
+- id: L22 activity
+  subject: Chemistry 20
+- id: L23
+  subject: Chemistry 20
+- id: L25
+  subject: Chemistry 20
+- id: L26
+  subject: Chemistry 20
+- id: L27
+  subject: Chemistry 20
+- id: L28
+  subject: Chemistry 20
+- id: L29 activity
+  subject: Chemistry 20
+- id: L30
+  subject: Chemistry 20
+- id: L31
+  subject: Chemistry 20
+- id: L32
+  subject: Chemistry 20
+- id: L33
+  subject: Chemistry 20
+- id: L34 activity
+  subject: Chemistry 20
+- id: L35
+  subject: Chemistry 20
