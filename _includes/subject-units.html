@@ -11,10 +11,42 @@
 
 {% assign subjpath = include.subject | split:" " | join: "" %}
 
-<div class="grid__wrapper"><ul>
-  {% assign nunit = 1 %}
-  {% for unit in units %}
-     {% include subject-unit.html unit=unit nunit=nunit subjpath=subjpath type='grid' subject=include.subject %}
-     {% assign nunit = nunit | plus:1 %}
-  {% endfor %}
-</ul></div>
+{% if page.title %}
+<meta itemprop="headline" content="{{ page.title | markdownify | strip_html | strip_newlines | escape_once }}">
+{% endif %}
+
+<div id="main" role="main">
+  {% include sidebar.html %}
+
+    {% if page.title %}
+    <h1 class="page__title" itemprop="headline">{{ page.title | markdownify | remove: "<p>" | remove: "</p>" }}</h1>
+    {% endif %}
+
+    <div class="grid__wrapper"><ul>
+
+    {% assign nunit = 1 %}
+    {% for unit in units %}
+        {% assign linkitem = '/lessons/' | append:subjpath | append:'/unit-' | append:nunit %}
+
+        {% include card-item.html link-item=linkitem color='blue' icon='folder-o' description=unit type='grid' title=include.subject %}
+        {% assign nunit = nunit | plus:1 %}
+    {% endfor %}
+
+    {% if include.subject != 'Math 10c' %}
+        {% assign linkitem = '/lessons/' | append:subjpath | append:'/review' %}
+
+        {% include card-item.html link-item=linkitem color='green' icon='globe' description=include.subject type='grid' title='Review' %}
+    {% endif %}
+
+    {% if include.subject != 'Chemistry 20' %}
+        {% assign linkitem = '/lessons/' | append:subjpath | append:'/videos' %}
+
+        {% include card-item.html link-item=linkitem color='green' icon='video-camera' description=include.subject type='grid' title='Videos' %}
+    {% endif %}
+
+    {% assign linkitem = '/lessons/' | append:subjpath | append:'/toolbox' %}
+
+    {% include card-item.html link-item=linkitem color='green' icon='gears' description=include.subject type='grid' title='Tool Box' %}
+
+    </ul></div>
+</div>

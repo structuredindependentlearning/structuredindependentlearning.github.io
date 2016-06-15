@@ -1,0 +1,130 @@
+
+{% assign path = page.url | split:"/" %}
+
+{% assign subject = path[2] %}
+
+{% assign lessonitem = path[3] | split:"-" %}
+{% assign unitnum = lessonitem[1] %}
+{% assign lessonnum = lessonitem[2] %}
+
+{% assign units = "" | split:"|"  %}
+{% assign lessons = "" | split:"|"  %}
+
+{% for lesson in site.data.lessons %}
+    {% assign subj = lesson.subject | split:" " | join:"" %}
+    {% if subj == subject %}
+        {% assign units = units | push:lesson.unit %}
+    {% endif %}
+{% endfor %}
+{% assign units = units | uniq %}
+
+{% assign loop_index = 0 %}
+{% for unt in units %}
+   {% capture loop_index %}{{ loop_index | plus:1 }}{% endcapture %}
+   {% if loop_index == unitnum %}
+      {% assign unitname = unt %}
+   {% endif %}
+{% endfor %}
+
+{% for lesson in site.data.lessons %}
+    {% assign subj = lesson.subject | split:" " | join:"" %}
+    {% if subj == subject and unitname == lesson.unit %}
+        {% assign lessons = lessons | push: lesson.id %}
+    {% endif %}
+{% endfor %}
+
+{% assign numlessons = lessons.size %}
+
+{% assign lessonprev = lessonnum | minus: 1 %}
+{% assign lessonnext = lessonnum | plus: 1 %}
+
+{% if lessonnext > numlessons %}
+   {% assign lessonnext = 0 %}
+{% endif %}
+
+{% assign loop_index = 0 %}
+{% for lesson in lessons %}
+   {% capture loop_index %}{{ loop_index | plus:1 }}{% endcapture %}
+   {% if loop_index == lessonnum %}
+      {% assign lessonid = lesson %}
+   {% endif %}
+{% endfor %}
+
+{% if page.url != "/" and site.breadcrumbs %}
+  {% unless paginator %}
+    {% include breadcrumbs.html %}
+  {% endunless %}
+{% endif %}
+
+{% assign subjpath = subject | split:" " | join: "" %}
+
+ {% for lessonitem in site.data.lessons %}
+      {% assign subj = lessonitem.subject | split:" " | join:"" %}
+      {% if subj == subject and lessonitem.id == lessonid  %}
+         {% assign lessontarg = lessonitem %}
+      {% endif %}
+    {% endfor %}
+
+{% assign subjid = lessontarg.subjectid %}
+
+{% if subjid == 'C20' %}
+   {% assign subjmain='chemistry' %}
+{% elsif subjid == 'P20' %}
+   {% assign subjmain='physics20' %}
+{% elsif subjid == 'P30' %}
+   {% assign subjmain='physics30' %}
+{% elsif subjid == 'M10C' %}
+   {% assign subjmain='math' %}
+{% elsif subjid == 'M10c' %}
+   {% assign subjmain='math' %}
+{% else %}
+   {% assign subjmain='unknown ' | append:subjid %}
+{% endif %}
+
+<div id="main" role="main">
+<div>
+  <div class="page__title">
+      <h1>{{lessonid}} {{ lessontarg.title}}</h1>
+  </div>
+
+  <a href='/{{subjmain}}' title={{lessontarg.subject}}>
+      <p class='notice--primary'>
+          <strong>Subject:</strong> {{ lessontarg.subject }}
+      </p>
+  </a>
+  <a href='/lessons/{{ subjpath }}/unit-{{unitnum}}' title='{{ lessontarg.unit }}'>
+      <p class='notice--info'>
+          <strong>Unit:</strong>
+          {{ lessontarg.unit }}<span style="font-size:10pt; font-style:italic"> (Lesson {{ lessonnum }} of {{ numlessons }})</span>
+      </p>
+  </a>
+
+  <table class="itemtable">
+      <tr>
+          <td class="title">Lesson</td>
+          <td><a href='/docs/{{ subjid }}%20Lessons/{{ subjid }}%20Lessons%20pdf/{{ lessonid }}%20{{ lessontarg.title }}.pdf' target='newWindow'><i class="fa fa-lg fa-file-pdf-o" aria-hidden="true"></i> PDF</a></td>
+          <td><a href='/docs/{{ subjid }}%20Lessons/{{ subjid }}%20Lessons%20docx/{{ lessonid }}%20{{ lessontarg.title }}.docx' target='newWindow'><i class="fa fa-lg fa-file-word-o" aria-hidden="true"></i> Word</a></td>
+      </tr>
+      <tr>
+          <td><strong>Answer Key</strong></td>
+          <td><a href='/docs/{{ subjid }}%20Answers/{{ subjid }}%20Answers%20pdf/{{ lessonid }}.pdf' target='newWindow'><i class="fa fa-lg fa-file-pdf-o" aria-hidden="true"></i> PDF</a></td>
+          <td><a href='/docs/{{ subjid }}%20Answers/{{ subjid }}%20Answers%20docx/{{ lessonid }}.docx' target='newWindow'><i class="fa fa-lg fa-file-word-o" aria-hidden="true"></i> Word</a></td>
+      </tr>
+  </table>
+
+  <nav class="pagination">
+    {% if lessonprev > 0 %}
+      <a href='/lessons/{{ subjpath }}/lesson-{{unitnum}}-{{lessonprev}}' class="pagination--pager" title="Previous Lesson">{{ site.data.ui-text[site.locale].pagination_previous }} Lesson</a>
+    {% else %}
+      <a href="#" class="pagination--pager disabled">{{ site.data.ui-text[site.locale].pagination_previous }}</a>
+    {% endif %}
+    {% if lessonnext > 0 %}
+      <a href='/lessons/{{ subjpath }}/lesson-{{unitnum}}-{{lessonnext}}' class="pagination--pager" title="Next Lesson">{{ site.data.ui-text[site.locale].pagination_next }} Lesson</a>
+    {% else %}
+      <a href="#" class="pagination--pager disabled">{{ site.data.ui-text[site.locale].pagination_next }}</a>
+    {% endif %}
+  </nav>
+
+</div>
+</div>
+

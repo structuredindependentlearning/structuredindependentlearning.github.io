@@ -1,156 +1,182 @@
 - id: L01
   order: 1
   subject: Physics 20
+  subjectid: P20
   unit: Kinematics
   type: Lesson
   title: Average Speed
 - id: L02
   order: 2
   subject: Physics 20
+  subjectid: P20
   unit: Kinematics
   type: Lesson
   title: Displacement
 - id: L03
   order: 3
   subject: Physics 20
+  subjectid: P20
   unit: Kinematics
   type: Lesson
   title: Velocity Graph Analysis
 - id: L03H
   order: 3
   subject: Physics 20
+  subjectid: P20
   unit: Kinematics
   type: Lesson
   title: Honors Assignment
 - id: L04
   order: 4
   subject: Physics 20
+  subjectid: P20
   unit: Kinematics
   type: Lesson
   title: Graphing motion
 - id: L05
   order: 5
   subject: Physics 20
+  subjectid: P20
   type: Lesson
   unit: Kinematics
   title: Acceleration Graph Analysis
 - id: L06
   order: 6
   subject: Physics 20
+  subjectid: P20
   unit: Kinematics
   type: Lesson
   title: Graph Analysis Activities
 - id: L07
   order: 7
   subject: Physics 20
+  subjectid: P20
   unit: Kinematics
   type: Lesson
   title: Acceleration
 - id: L08
   order: 8
   subject: Physics 20
+  subjectid: P20
   type: Lesson
   unit: Kinematics
   title: Acceleration Displacement I
 - id: L08H
   order: 8
   subject: Physics 20
+  subjectid: P20
   type: Lesson
   unit: Kinematics
   title: Honors assignment
 - id: L09
   order: 9
   subject: Physics 20
+  subjectid: P20
   type: Lesson
   unit: Kinematics
   title: Acceleration Displacement II
 - id: L09H
   order: 9
   subject: Physics 20
+  subjectid: P20
   type: Lesson
   unit: Kinematics
   title: Rotational kinematics
 - id: L10
   order: 10
   subject: Physics 20
+  subjectid: P20
   type: Lesson
   unit: Vectors
   title: Vector Addition
 - id: L11
   order: 11
   subject: Physics 20
+  subjectid: P20
   unit: Vectors
   type: Lesson
   title: Vector addition components
 - id: L12
   order: 12
   subject: Physics 20
+  subjectid: P20
   unit: Vectors
   type: Lesson
   title: Relative Motion
 - id: L13
   order: 13
   subject: Physics 20
+  subjectid: P20
   type: Lesson
   unit: Vectors
   title: Projectiles
 - id: L14
   order: 14
   subject: Physics 20
+  subjectid: P20
   type: Lesson
   unit: Dynamics
   title: Dynamics conceptual change
 - id: L15
   order: 15
   subject: Physics 20
+  subjectid: P20
   type: Lesson
   unit: Dynamics
   title: Dynamics problem solving
 - id: L16
   order: 16
   subject: Physics 20
+  subjectid: P20
   type: Lesson
   unit: Dynamics
   title: Friction
 - id: L17
   order: 17
   subject: Physics 20
+  subjectid: P20
   type: Lesson
   unit: Dynamics
   title: Elevators and inclines
 - id: L18
   order: 18
   subject: Physics 20
+  subjectid: P20
   type: Lesson
   unit: Dynamics
   title: Systems
 - id: L18H
   order: 18
   subject: Physics 20
+  subjectid: P20
   type: Lesson
   unit: Dynamics
   title: Torque
 - id: L19
   order: 19
   subject: Physics 20
+  subjectid: P20
   type: Lesson
   unit: Circular Motion & Gravitation
   title: Uniform Circular Motion
 - id: L19H
   order: 19
   subject: Physics 20
+  subjectid: P20
   type: Lesson
   unit: Circular Motion & Gravitation
   title: Banked curves
 - id: L20
   order: 20
   subject: Physics 20
+  subjectid: P20
   type: Lesson
   unit: Circular Motion & Gravitation
   title: Vertical UCM
 - id: L21
   order: 21
   subject: Physics 20
+  subjectid: P20
   type: Lesson
   unit: Circular Motion & Gravitation
   title: Universal gravitation
@@ -158,58 +184,68 @@
   order: 21
   subject: Physics 20
   unit: Circular Motion & Gravitation
+  subjectid: P20
   type: Lesson
   title: Gravitation curve straightening
 - id: L22
   order: 22
   subject: Physics 20
+  subjectid: P20
   type: Lesson
   unit: Circular Motion & Gravitation
   title: Gravitational field strength
 - id: L23
   order: 23
   subject: Physics 20
+  subjectid: P20
   unit: Circular Motion & Gravitation
   type: Lesson
   title: Orbits and Satellites
 - id: L24
   order: 24
   subject: Physics 20
+  subjectid: P20
   type: Lesson
   unit: Simple Harmonic Motion
   title: SHM pendulums
 - id: L25
   order: 25
   subject: Physics 20
+  subjectid: P20
   type: Lesson
   unit: Simple Harmonic Motion
   title: SHM springs
 - id: L26
   order: 26
   subject: Physics 20
+  subjectid: P20
   type: Lesson
   unit: Work & Energy
   title: Energy Work Power
 - id: L27
   order: 27
   subject: Physics 20
+  subjectid: P20
   type: Lesson
   unit: Work & Energy
   title: Conservation of Energy
 - id: L28
   order: 28
   subject: Physics 20
+  subjectid: P20
   type: Lesson
   unit: Work & Energy
   title: SHM Dynamics and Energy
 - id: L29
   order: 29
   subject: Physics 20
+  subjectid: P20
   type: Lesson
   unit: Waves
   title: Waves One Dimension
 - id: L30
   order: 30
+  subjectid: P20
   subject: Physics 20
   unit: Waves
   type: Lesson
@@ -217,120 +253,140 @@
 - id: L31
   order: 31
   subject: Physics 20
+  subjectid: P20
   unit: Waves
   type: Lesson
   title: Resonance and sound
 - id: L32
   order: 32
   subject: Physics 20
+  subjectid: P20
   unit: Waves
   type: Lesson
   title: Doppler effect
 - id: L00
   order: 0
   subject: Physics 30
+  subjectid: P30
   unit: Review
   type: Lesson
   title: Review of physics 20 essentials
 - id: L01
   order: 1
   subject: Physics 30
+  subjectid: P30
   unit: Momentum
   type: Lesson
   title: Momentum in One Dimension
 - id: L02
   order: 2
   subject: Physics 30
+  subjectid: P30
   type: Lesson
   unit: Momentum
   title: Momentum in Two Dimensions
 - id: L03
   order: 3
   subject: Physics 30
+  subjectid: P30
   type: Lesson
   unit: Momentum
   title: Impulse Change in Momentum
 - id: L04
   order: 4
   subject: Physics 30
+  subjectid: P30
   type: Lesson
   unit: Momentum
   title: Graphing
 - id: L05
   order: 5
   subject: Physics 30
+  subjectid: P30
   unit: Light
   type: Lesson
   title: Introduction to Light
 - id: L06
   order: 6
   subject: Physics 30
+  subjectid: P30
   unit: Light
   type: Lesson
   title: Reflection of Light
 - id: L07
   order: 7
   subject: Physics 30
+  subjectid: P30
   type: Lesson
   unit: Light
   title: Optics curved mirrors
 - id: L08
   order: 8
   subject: Physics 30
+  subjectid: P30
   unit: Light
   type: Lesson
   title: Refraction of Light
 - id: L09
   order: 9
   subject: Physics 30
+  subjectid: P30
   type: Lesson
   unit: Light
   title: Optics lenses
 - id: L10
   order: 10
   subject: Physics 30
+  subjectid: P30
   type: Lesson
   unit: Light
   title: Dispersion scattering colour
 - id: L11
   order: 11
   subject: Physics 30
+  subjectid: P30
   type: Lesson
   unit: Light
   title: Interference of light
 - id: L12
   order: 12
   subject: Physics 30
+  subjectid: P30
   unit: Light
   type: Lesson
   title: Diffraction gratings
 - id: L13
   order: 13
   subject: Physics 30
+  subjectid: P30
   unit: Electrostatics & Electric Fields
   type: Lesson
   title: Electrostatics
 - id: L14
   order: 14
   subject: Physics 30
+  subjectid: P30
   unit: Electrostatics & Electric Fields
   type: Lesson
   title: Coulombs Law
 - id: L15
   order: 15
   subject: Physics 30
+  subjectid: P30
   unit: Electrostatics & Electric Fields
   type: Lesson
   title: Electric Fields
 - id: L16
   order: 16
   subject: Physics 30
+  subjectid: P30
   unit: Electrostatics & Electric Fields
   type: Lesson
   title: Electric Potential
 - id: L17
   order: 17
   subject: Physics 30
+  subjectid: P30
   unit: Electrostatics & Electric Fields
   type: Lesson
   title: Parallel Plates
@@ -338,23 +394,27 @@
   order: 18
   subject: Physics 30
   unit: Electrostatics & Electric Fields
+  subjectid: P30
   type: Lesson
   title: Electric Current
 - id: L19
   order: 19
   subject: Physics 30
+  subjectid: P30
   unit: Electromagnetism
   type: Lesson
   title: Magnetic fields
 - id: L20
   order: 20
   subject: Physics 30
+  subjectid: P30
   unit: Electromagnetism
   type: Lesson
   title: Magnetic forces on particles
 - id: L21
   order: 21
   subject: Physics 30
+  subjectid: P30
   unit: Electromagnetism
   type: Lesson
   title: Motor effect
@@ -362,53 +422,62 @@
   order: 22
   subject: Physics 30
   unit: Electromagnetism
+  subjectid: P30
   type: Lesson
   title: Generator effect
 - id: L23
   order: 23
   subject: Physics 30
   type: Lesson
+  subjectid: P30
   unit: Electromagnetism
   title: Electromagnetism activities
 - id: L24
   order: 24
   subject: Physics 30
+  subjectid: P30
   type: Lesson
   unit: Electromagnetism
   title: Electromagnetic Radiation
 - id: L25
   order: 25
   subject: Physics 30
+  subjectid: P30
   type: Lesson
   unit: Nuclear and Particle Physics
   title: Early atomic models
 - id: L26
   order: 26
   subject: Physics 30
+  subjectid: P30
   unit: Nuclear and Particle Physics
   type: Lesson
   title: Cathode rays
 - id: L27
   order: 27
   subject: Physics 30
+  subjectid: P30
   unit: Nuclear and Particle Physics
   type: Lesson
   title: Rutherford atom
 - id: L28
   order: 28
   subject: Physics 30
+  subjectid: P30
   unit: Nuclear and Particle Physics
   type: Lesson
   title: Quantization of light
 - id: L29
   order: 29
   subject: Physics 30
+  subjectid: P30
   unit: Nuclear and Particle Physics
   type: Lesson
   title: Photoelectric effect
 - id: L30
   order: 30
   subject: Physics 30
+  subjectid: P30
   type: Lesson
   unit: Nuclear and Particle Physics
   title: Light spectra excitation states
@@ -416,23 +485,27 @@
   order: 31
   subject: Physics 30
   type: Lesson
+  subjectid: P30
   unit: Nuclear and Particle Physics
   title: The Bohr model
 - id: L32
   order: 32
   subject: Physics 30
+  subjectid: P30
   unit: Nuclear and Particle Physics
   type: Lesson
   title: Compton Effect
 - id: L33
   order: 33
   subject: Physics 30
+  subjectid: P30
   type: Lesson
   unit: Nuclear and Particle Physics
   title: Wave Particle Nature
 - id: L34
   order: 34
   subject: Physics 30
+  subjectid: P30
   type: Lesson
   unit: Nuclear and Particle Physics
   title: Quantum Mechanics (optional)
@@ -440,101 +513,118 @@
   order: 35
   subject: Physics 30
   type: Lesson
+  subjectid: P30
   unit: Nuclear and Particle Physics
   title: Nuclear Physics
 - id: L36
   order: 36
   subject: Physics 30
+  subjectid: P30
   type: Lesson
   unit: Nuclear and Particle Physics
   title: Radioactivity
 - id: L37
   order: 37
   subject: Physics 30
+  subjectid: P30
   type: Lesson
   unit: Nuclear and Particle Physics
   title: Particle Physics
 - id: L38
   order: 38
   subject: Physics 30
+  subjectid: P30
   type: Lesson
   title: Quarks
   unit: Nuclear and Particle Physics
 - id: L1-1
   order: 1
   subject: Math 10c
+  subjectid: M10c
   unit: Factors, Multiples, Radicals, Exponents
   type: Lesson
   title: Factors primes composites multiples
 - id: L1-2
   order: 2
   subject: Math 10c
+  subjectid: M10c
   unit: Factors, Multiples, Radicals, Exponents
   type: Lesson
   title: GCFs and LCMs
 - id: L1-3
   order: 3
   subject: Math 10c
+  subjectid: M10c
   unit: Factors, Multiples, Radicals, Exponents
   type: Lesson
   title: Squares, cubes, roots
 - id: L1-4
   order: 4
   subject: Math 10c
+  subjectid: M10c
   unit: Factors, Multiples, Radicals, Exponents
   type: Lesson
   title: Irrational Numbers
 - id: L1-5
   order: 5
   subject: Math 10c
+  subjectid: M10c
   unit: Factors, Multiples, Radicals, Exponents
   type: Lesson
   title: Mixed entire radicals
 - id: L1-6
   order: 6
   subject: Math 10c
+  subjectid: M10c
   unit: Factors, Multiples, Radicals, Exponents
   type: Lesson
   title: Radicals and fractional exponents
 - id: L1-7
   order: 7
   subject: Math 10c
+  subjectid: M10c
   unit: Factors, Multiples, Radicals, Exponents
   type: Lesson
   title: Negative exponents
 - id: L1-8
   order: 8
   subject: Math 10c
+  subjectid: M10c
   unit: Factors, Multiples, Radicals, Exponents
   type: Lesson
   title: Applying exponent rules
 - id: L1-9
   order: 9
   subject: Math 10c
+  subjectid: M10c
   unit: Factors, Multiples, Radicals, Exponents
   type: Lesson
   title: Love those radicals and exponents
 - id: L2-1
   order: 10
   subject: Math 10c
+  subjectid: M10c
   unit: Factoring trinomials
   type: Lesson
   title: Factoring polynomials
 - id: L2-2
   order: 11
   subject: Math 10c
+  subjectid: M10c
   unit: Factoring trinomials
   type: Lesson
   title: Multiplying polynomials
 - id: L2-3
   order: 12
   subject: Math 10c
+  subjectid: M10c
   unit: Factoring trinomials
   type: Lesson
   title: Factoring trinomials
 - id: L2-4
   order: 13
   subject: Math 10c
+  subjectid: M10c
   unit: Factoring trinomials
   type: Lesson
   title: Special trinomials
@@ -542,89 +632,104 @@
   order: 14
   unit: Factoring trinomials
   subject: Math 10c
+  subjectid: M10c
   type: Lesson
   title: Love those polynomials
 - id: L3-1
   order: 15
   subject: Math 10c
+  subjectid: M10c
   unit: Linear relations and functions
   type: Lesson
   title: Representing relations
 - id: L3-2
   order: 16
   subject: Math 10c
+  subjectid: M10c
   unit: Linear relations and functions
   type: Lesson
   title: Functions
 - id: L3-3
   order: 17
   subject: Math 10c
+  subjectid: M10c
   unit: Linear relations and functions
   type: Lesson
   title: Interpreting and Sketching Graphs
 - id: L3-4
   order: 18
   subject: Math 10c
+  subjectid: M10c
   unit: Linear relations and functions
   type: Lesson
   title: Graphing data
 - id: L3-5
   order: 19
   subject: Math 10c
+  subjectid: M10c
   unit: Linear relations and functions
   type: Lesson
   title: Graphs relations functions
 - id: L3-6
   order: 20
   subject: Math 10c
+  subjectid: M10c
   unit: Linear relations and functions
   type: Lesson
   title: Properties of linear relations
 - id: L3-7
   order: 21
   subject: Math 10c
+  subjectid: M10c
   unit: Linear relations and functions
   type: Lesson
   title: Interpreting linear functions
 - id: L3-8
   order: 22
   subject: Math 10c
+  subjectid: M10c
   unit: Linear relations and functions
   type: Lesson
   title: Love those functions and linear relations
 - id: L4-1
   order: 23
   subject: Math 10c
+  subjectid: M10c
   unit: Linear equations
   type: Lesson
   title: Slope of a line
 - id: L4-2
   order: 24
   subject: Math 10c
+  subjectid: M10c
   unit: Linear equations
   type: Lesson
   title: Parallel and perpendicular lines
 - id: L4-3
   order: 25
   subject: Math 10c
+  subjectid: M10c
   unit: Linear equations
   type: Lesson
   title: Graphing lines
 - id: L4-4
   order: 26
   subject: Math 10c
+  subjectid: M10c
   unit: Linear equations
   type: Lesson
   title: Investigating graphs of linear functions
 - id: L4-5
   order: 27
   subject: Math 10c
+  subjectid: M10c
   unit: Linear equations
   type: Lesson
   title: Slope-point and standard form
 - id: L4-6
   order: 28
   subject: Math 10c
+  subjectid: M10c
   unit: Linear equations
   type: Lesson
   title: Slope-intercept form
@@ -632,107 +737,125 @@
   order: 29
   subject: Math 10c
   unit: Linear equations
+  subjectid: M10c
   type: Lesson
   title: General form
 - id: L4-8
   order: 30
   subject: Math 10c
   unit: Linear equations
+  subjectid: M10c
   type: Lesson
   title: Love those linear functions
 - id: L5-1
   order: 31
   subject: Math 10c
+  subjectid: M10c
   unit: Systems of equations
   type: Lesson
   title: Linear equations graphical
 - id: L5-2
   order: 32
   subject: Math 10c
+  subjectid: M10c
   unit: Systems of equations
   type: Lesson
   title: Linear equations substitution
 - id: L5-3
   order: 33
   subject: Math 10c
+  subjectid: M10c
   unit: Systems of equations
   type: Lesson
   title: Linear equations elimination
 - id: L5-4
   order: 34
   subject: Math 10c
+  subjectid: M10c
   unit: Systems of equations
   type: Lesson
   title: Linear equations possible solutions
 - id: L5-5
   order: 35
   subject: Math 10c
+  subjectid: M10c
   unit: Systems of equations
   type: Lesson
   title: Love solving those linear equations
 - id: L6-1
   order: 36
   subject: Math 10c
+  subjectid: M10c
   unit: Measurement, Areas, Volumes
   type: Lesson
   title: Measurement - Imperial units
 - id: L6-2
   order: 37
   subject: Math 10c
+  subjectid: M10c
   unit: Measurement, Areas, Volumes
   type: Lesson
   title: Measuring Length and Distance
 - id: L6-3
   order: 38
   subject: Math 10c
+  subjectid: M10c
   unit: Measurement, Areas, Volumes
   type: Lesson
   title: Relating SI and Imperial Units
 - id: L6-4
   order: 39
   subject: Math 10c
+  subjectid: M10c
   unit: Measurement, Areas, Volumes
   type: Lesson
   title: Surface area of pyramids cones
 - id: L6-5
   order: 40
   subject: Math 10c
+  subjectid: M10c
   unit: Measurement, Areas, Volumes
   type: Lesson
   title: Volume of pyramids cones
 - id: L6-6
   order: 41
   subject: Math 10c
+  subjectid: M10c
   unit: Measurement, Areas, Volumes
   type: Lesson
   title: Area volume of sphere
 - id: L6-7
   order: 42
   subject: Math 10c
+  subjectid: M10c
   unit: Measurement, Areas, Volumes
   type: Lesson
   title: Solving problems involving objects
 - id: L6-8
   order: 43
   subject: Math 10c
+  subjectid: M10c
   unit: Measurement, Areas, Volumes
   type: Lesson
   title: Love those measurements areas and volumes
 - id: L7-1
   order: 44
   subject: Math 10c
+  subjectid: M10c
   unit: Trigonometry
   type: Lesson
   title: Trigonometry - tangent sine cosine
 - id: L7-2
   order: 45
   subject: Math 10c
+  subjectid: M10c
   unit: Trigonometry
   type: Lesson
   title: Using the trig ratios
 - id: L7-3
   order: 46
   subject: Math 10c
+  subjectid: M10c
   unit: Trigonometry
   type: Lesson
   title: Measuring an inaccessible height
@@ -740,167 +863,195 @@
   order: 47
   subject: Math 10c
   unit: Trigonometry
+  subjectid: M10c
   type: Lesson
   title: Applying trig ratios part 1
 - id: L7-5
   order: 48
   subject: Math 10c
+  subjectid: M10c
   unit: Trigonometry
   type: Lesson
   title: Applying trig ratios part 2
 - id: L7-6
   order: 49
   subject: Math 10c
+  subjectid: M10c
   unit: Trigonometry
   type: Lesson
   title: Love those trigonometry problems
 - id: L01
   order: 1
   subject: Chemistry 20
+  subjectid: C20
   type: Lesson
   unit: Nomenclature, chemical equations, mole concept, stoichiometry
   title: Alchemy becomes chemistry
 - id: L02
   order: 2
   subject: Chemistry 20
+  subjectid: C20
   unit: Nomenclature, chemical equations, mole concept, stoichiometry
   type: Lesson
   title: Atoms ions compounds
 - id: L03
   order: 3
   subject: Chemistry 20
+  subjectid: C20
   unit: Nomenclature, chemical equations, mole concept, stoichiometry
   type: Lesson
   title: Naming compounds
 - id: L04
   order: 4
   subject: Chemistry 20
+  subjectid: C20
   unit: Nomenclature, chemical equations, mole concept, stoichiometry
   type: Lesson
   title: Chemical equations
 - id: L05
   order: 5
   subject: Chemistry 20
+  subjectid: C20
   unit: Nomenclature, chemical equations, mole concept, stoichiometry
   type: Lesson
   title: The mole
 - id: L06
   order: 6
   subject: Chemistry 20
+  subjectid: C20
   unit: Nomenclature, chemical equations, mole concept, stoichiometry
   type: Lesson
   title: Mass stoichiometry
 - id: L07
   order: 7
   subject: Chemistry 20
+  subjectid: C20
   unit: Nomenclature, chemical equations, mole concept, stoichiometry
   type: Lesson
   title: Lab safety
 - id: L08
   order: 8
   subject: Chemistry 20
+  subjectid: C20
   unit: Nomenclature, chemical equations, mole concept, stoichiometry
   type: Lesson
   title: Malachite activity
 - id: L09
   order: 9
   subject: Chemistry 20
+  subjectid: C20
   unit: Chemical Bonding
   type: Lesson
   title: Lewis diagrams
 - id: L10
   order: 10
   subject: Chemistry 20
+  subjectid: C20
   unit: Chemical Bonding
   type: Lesson
   title: Double and Triple Bonds
 - id: L11
   order: 11
   subject: Chemistry 20
+  subjectid: C20
   unit: Chemical Bonding
   type: Lesson
   title: Electronegativity Polarity
 - id: L12
   order: 12
   subject: Chemistry 20
+  subjectid: C20
   unit: Chemical Bonding
   type: Lesson
   title: Stereocemistry Activity
 - id: L13
   order: 13
   subject: Chemistry 20
+  subjectid: C20
   unit: Chemical Bonding
   type: Lesson
   title: Intermolecular Forces
 - id: L14
   order: 14
   subject: Chemistry 20
+  subjectid: C20
   unit: Chemical Bonding
   type: Lesson
   title: Ionic bonding
 - id: L15
   order: 15
   subject: Chemistry 20
+  subjectid: C20
   unit: Solution chemistry, reactions in solution
   type: Lesson
   title: Solutions
 - id: L16
   order: 16
   subject: Chemistry 20
+  subjectid: C20
   unit: Solution chemistry, reactions in solution
   type: Lesson
   title: Concentration
 - id: L17
   order: 17
   subject: Chemistry 20
+  subjectid: C20
   unit: Solution chemistry, reactions in solution
   type: Lesson
   title: Solubility
 - id: L18
   order: 18
   subject: Chemistry 20
+  subjectid: C20
   unit: Solution chemistry, reactions in solution
   type: Lesson
   title: Dilution
 - id: L19
   order: 19
   subject: Chemistry 20
+  subjectid: C20
   unit: Solution chemistry, reactions in solution
   type: Lesson
   title: Prep solutions activity
 - id: L20
   order: 20
   subject: Chemistry 20
+  subjectid: C20
   unit: Solution chemistry, reactions in solution
   type: Lesson
   title: Dissociation
 - id: L21
   order: 21
   subject: Chemistry 20
+  subjectid: C20
   unit: Solution chemistry, reactions in solution
   type: Lesson
   title: Solution stoichiometry
 - id: L22
   order: 22
   subject: Chemistry 20
+  subjectid: C20
   unit: Solution chemistry, reactions in solution
   type: Lesson
   title: Precipitate activity
 - id: L23
   order: 23
   subject: Chemistry 20
+  subjectid: C20
   unit: Solution chemistry, reactions in solution
   type: Lesson
   title: Rxs in solution
 - id: L24
   order: 24
   subject: Chemistry 20
+  subjectid: C20
   type: Lesson
   unit: Acids and Bases
   title: Acid base properties
 - id: L25
   order: 25
   subject: Chemistry 20
+  subjectid: C20
   unit: Acids and Bases
   type: Lesson
   title: Acid base theory
@@ -908,65 +1059,76 @@
   order: 26
   subject: Chemistry 20
   unit: Acids and Bases
+  subjectid: C20
   type: Lesson
   title: pH and pOH
 - id: L27
   order: 27
   subject: Chemistry 20
+  subjectid: C20
   unit: Acids and Bases
   type: Lesson
   title: Indicators
 - id: L28
   order: 28
   subject: Chemistry 20
+  subjectid: C20
   unit: Acids and Bases
   type: Lesson
   title: Acid base stoichiometry
 - id: L29
   order: 29
   subject: Chemistry 20
+  subjectid: C20
   unit: Acids and Bases
   type: Lesson
   title: Titration activity
 - id: L30
   order: 30
   subject: Chemistry 20
+  subjectid: C20
   unit: Gas laws, Gas stoichiometry
   type: Lesson
   title: Gas law theory
 - id: L31
   order: 31
   subject: Chemistry 20
+  subjectid: C20
   type: Lesson
   unit: Gas laws, Gas stoichiometry
   title: Combined gas law
 - id: L32
   order: 32
   subject: Chemistry 20
+  subjectid: C20
   unit: Gas laws, Gas stoichiometry
   type: Lesson
   title: Ideal gas law
 - id: L33
   order: 33
   subject: Chemistry 20
+  subjectid: C20
   unit: Gas laws, Gas stoichiometry
   type: Lesson
   title: Gas stoichiometry
 - id: L34
   order: 34
   subject: Chemistry 20
+  subjectid: C20
   unit: Gas laws, Gas stoichiometry
   type: Lesson
   title: Hydrogen activity
 - id: L35
   order: 35
   subject: Chemistry 20
+  subjectid: C20
   unit: Gas laws, Gas stoichiometry
   type: Lesson
   title: Limiting reactants
 - id: L36
   order: 36
   subject: Chemistry 20
+  subjectid: C20
   unit: Review
   type: Lesson
   title: Whole enchilada

@@ -1,0 +1,12 @@
+<div class="grid__item boxed__item boxed__{{ include.color }}">
+   <div class="header">
+       <i class="fa fa-lg fa-{{include.icon}}" aria-hidden="true"></i>
+       <span>{{ include.title }}</span>
+   </div>
+
+    <a href='{{ include.link-item }}' style="text-decoration:none;">
+    <article class="archive__item" itemscope itemtype="http://schema.org/CreativeWork">
+      <h3>{{ include.description }}</h3>
+    </article>
+    </a>
+</div>

@@ -7,6 +7,10 @@ layout: default
 {% if subjpath[0] == 'unit' %}
     {% include unit-lessons.html %}
 {% else %}
-    {% include unit-lesson.html %}
+    {% if subjpath[0] == 'lesson' %}
+        {% include lesson-view.html %}
+    {% else %}
+        {% include extra-view.html %}
+    {% endif %}
 {% endif %}
 

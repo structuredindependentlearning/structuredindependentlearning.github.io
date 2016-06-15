@@ -16,9 +16,18 @@
     {% assign subj = lesson.subject | split:" " | join:"" %}
     {% if subj == subject %}
         {% assign units = units | push:lesson.unit %}
+        {% assign subjfull = lesson.subject %}
     {% endif %}
 {% endfor %}
 {% assign units = units | uniq %}
+{% assign numunits = units.size %}
+
+{% assign unitprev = unitnum | minus: 1 %}
+{% assign unitnext = unitnum | plus: 1 %}
+
+{% if unitnext > numunits %}
+   {% assign unitnext = 0 %}
+{% endif %}
 
 {% assign loop_index = 0 %}
 {% for unt in units %}
@@ -43,13 +52,14 @@
 
 {% assign subjpath = subject | split:" " | join: "" %}
 
-<div class="archive">
-  </div>
-
 <div id="main" role="main">
 
     {% unless page.header.overlay_color or page.header.overlay_image %}
-      <h1 class="page__title">{{ subject }}: {{ unitname }}</h1>
+      <div class="page__title notice--info">
+          <h1>{{ subjfull }}: {{ unitname }}
+          <span style="font-size:10pt; font-style:italic"> (Unit {{ unitnum }} of {{ numunits }})</span>
+          </h1>
+      </div>
     {% endunless %}
     {{ content }}
 
@@ -66,25 +76,27 @@
     {% endfor %}
 
     {% assign lessontitle = lesson.title %}
+    {% assign cardtitle = 'Lesson ' | append:lessonid %}
 
-    <div class="grid__item boxed__item">
-    <a href='/lessons/{{ subjpath }}/lesson-{{unitnum}}-{{ nlesson }}' style="text-decoration:none;">
-    <article class="archive__item" itemscope itemtype="http://schema.org/CreativeWork">
-      {% if include.type == "grid" and post.image != blank %}
-        <div class="archive__item-teaser">
-          <img src=
-              "{{ post.image | prepend: "/images/" | prepend: base_path }}"
-            alt="">
-        </div>
-      {% endif %}
-      <h3>{{ lessontitle }}</h3>
-      {% if extra %}
-      <h2 class="archive__item-title" itemprop="headline">{{ unittitle | markdownify | remove: "<p>" | remove: "</p>" }}{% if icon %}<i class="fa fa-star" aria-hidden="true"></i>{% endif %}</h2>
-      {% endif %}
-    </article>
-     </a>
-      </div>
+    {% assign linkitem = '/lessons/' | append:subjpath | append:'/lesson-' | append:unitnum | append:'-' | append:nlesson %}
+
+    {% include card-item.html link-item=linkitem description=lessontitle title=cardtitle color='blue' icon='sticky-note-o'%}
+
      {% assign nlesson = nlesson | plus:1 %}
   {% endfor %}
   </ul></div>
+
+  <nav class="pagination">
+    {% if unitprev > 0 %}
+      <a href='/lessons/{{ subjpath }}/unit-{{unitprev}}' class="pagination--pager" title="Previous Unit">{{ site.data.ui-text[site.locale].pagination_previous }} Unit</a>
+    {% else %}
+      <a href="#" class="pagination--pager disabled">{{ site.data.ui-text[site.locale].pagination_previous }}</a>
+    {% endif %}
+    {% if unitnext > 0 %}
+      <a href='/lessons/{{ subjpath }}/unit-{{unitnext}}' class="pagination--pager" title="Next Unit">{{ site.data.ui-text[site.locale].pagination_next }} Unit</a>
+    {% else %}
+      <a href="#" class="pagination--pager disabled">{{ site.data.ui-text[site.locale].pagination_next }}</a>
+    {% endif %}
+  </nav>
 </div>
+

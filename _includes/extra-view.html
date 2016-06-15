@@ -1,0 +1,66 @@
+
+{% assign path = page.url | split:"/" %}
+
+{% assign subject = path[2] %}
+{% assign type = path[3] %}
+
+{% if page.url != "/" and site.breadcrumbs %}
+  {% unless paginator %}
+    {% include breadcrumbs.html %}
+  {% endunless %}
+{% endif %}
+
+{% assign subjpath = subject | split:" " | join: "" %}
+
+{% assign items = "" | split:"|"  %}
+{% for item in site.data.extra %}
+   {% assign subj = item.subject | split:" " | join:"" %}
+   {% assign itype = item.type | downcase %}
+   {% if subj == subject and type == itype %}
+        {% assign subjtitle = item.subject %}
+        {% assign typetitle = item.type %}
+        {% assign items = items | push: item %}
+   {% endif %}
+{% endfor %}
+
+<div id="main" role="main">
+  <div class="page__title">
+      <h1>{{subjtitle}} {{typetitle}}</h1>
+  </div>
+
+    <table class="itemtable">
+    {% for item in site.data.extra %}
+       {% assign subj = item.subject | split:" " | join:"" %}
+       {% assign itype = item.type | downcase %}
+       {% if subj == subject and type == itype %}
+            {% assign subjid = item.subjectid %}
+            <tr>
+                <td class='title'>{{item.title}}</td>
+                {% assign fts = item.formats | split:" " %}
+                {% for fmt in fts %}
+                <td>
+                    {% if fmt == 'pdf' %}
+                        {% assign doctype='PDF' %}
+                        {% assign docicon='file-pdf-o' %}
+                    {% elsif fmt == 'mp4' %}
+                        {% assign doctype='Video' %}
+                        {% assign docicon='file-video-o' %}
+                    {% elsif fmt == 'mov' %}
+                        {% assign doctype='Video' %}
+                        {% assign docicon='file-video-o' %}
+                    {% else %}
+                        {% assign doctype='Word' %}
+                        {% assign docicon='file-word-o' %}
+                    {% endif %}
+                    <a href='/docs/{{subjid}}%20{{item.type}}/{{item.title}}.{{fmt}}' target='newWindow'><i class="fa fa-lg fa-{{docicon}}" aria-hidden="true"></i> {{doctype}}</a>
+                </td>
+                {% endfor %}
+                {% if fts.size == 1 %}
+                <td></td>
+                {% endif %}
+            </tr>
+       {% endif %}
+    {% endfor %}
+    </table>
+</div>
+
