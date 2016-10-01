@@ -1,6 +1,6 @@
 ---
 title: "Structured Independent Learning"
-layout: default
+layout: single
 permalink: /sil
 author_profile: true
 ---
