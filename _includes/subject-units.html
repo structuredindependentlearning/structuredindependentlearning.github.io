@@ -48,5 +48,9 @@
 
     {% include card-item.html link-item=linkitem color='green' icon='gears' description=include.subject type='grid' title='Tool Box' %}
 
+    {% assign linkitem = '/lessons/' | append:subjpath | append:'/calendars' %}
+
+    {% include card-item.html link-item=linkitem color='green' icon='calendar' description=include.subject type='grid' title='Calendars' %}
+
     </ul></div>
 </div>

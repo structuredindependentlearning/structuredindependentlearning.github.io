@@ -7,7 +7,7 @@ author_profile: true
 
 {% include about-site.html %}
 
-All of this material is freely available to teachers and students under the <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a>.
+All of this material is freely available to teachers and students under the <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/" target="newWindow">Creative Commons Attribution-ShareAlike 4.0 International License</a>.
 
 I encourage teachers to adapt this work to make it their own.
 
@@ -17,7 +17,7 @@ Additional <strong>quizzes and tests</strong> are available for free to teachers
 
 All of these materials I designed with an approach to teaching and learning that I call <strong>Structured Independent Learning</strong>.
 
-To learn more about <strong>Structured Independent Learning</strong> and how I came to develop this approach you can read a <a href='/docs/Structured%20Independent%20Learning/SIL%20narrative.pdf' target="newWindow">Structured Independent Learning Narrative</a>.
+You can learn more about <a href='/sil'><strong>Structured Independent Learning</strong></a> and how I came to develop this approach.
 
 I have also included some sample calendars below to give examples of how I used these materials in a school year:
 
