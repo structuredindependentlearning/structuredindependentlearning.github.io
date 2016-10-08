@@ -11,4 +11,4 @@ For questions about the content of this website, copyright concerns, or to learn
 
 {% include contact.html person='Ron' %}
 
-<p>*NOTE* Dr. Licht is **not available** to help or tutor students. He does provide an excellent Physics 30 diploma exam review course for the Calgary area through <a href="http://www.diplomaprep.com" target="newWindow">Alberta Diploma Prep</a>. Check it out!</p>
+<p><strong>NOTE</strong> Dr. Licht is not available to help or tutor students. He does provide an excellent Physics 30 diploma exam review course for the Calgary area through <a href="http://www.diplomaprep.com" target="newWindow">Alberta Diploma Prep</a>. Check it out!</p>
