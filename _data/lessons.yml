@@ -438,7 +438,7 @@
   subjectid: P30
   type: Lesson
   unit: Electromagnetism
-  title: Electromagnetic Radiation
+  title: Electromagnetic radiation
 - id: L25
   order: 25
   subject: Physics 30
@@ -494,14 +494,14 @@
   subjectid: P30
   unit: Nuclear and Particle Physics
   type: Lesson
-  title: Compton Effect
+  title: Compton effect
 - id: L33
   order: 33
   subject: Physics 30
   subjectid: P30
   type: Lesson
   unit: Nuclear and Particle Physics
-  title: Wave Particle Nature
+  title: Wave particle nature
 - id: L34
   order: 34
   subject: Physics 30
@@ -515,7 +515,7 @@
   type: Lesson
   subjectid: P30
   unit: Nuclear and Particle Physics
-  title: Nuclear Physics
+  title: Nuclear physics
 - id: L36
   order: 36
   subject: Physics 30
@@ -529,7 +529,7 @@
   subjectid: P30
   type: Lesson
   unit: Nuclear and Particle Physics
-  title: Particle Physics
+  title: Particle physics
 - id: L38
   order: 38
   subject: Physics 30
