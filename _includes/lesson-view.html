@@ -67,11 +67,13 @@
 
 {% assign subjid = lessontarg.subjectid %}
 
-{% assign answerkeys = 1 %}
+{% if lessontarg.answerkey == 'none' %}
+   {% assign answerkeys = 0 %}
+{% else %}
+   {% assign answerkeys = 1 %}
+{% endif %}
+
 {% if subjid == 'C20' %}
-   {% if lessonid == 'L36' %}
-      {% assign answerkeys = 0 %}
-   {% endif %}
    {% assign subjmain='chemistry' %}
 {% elsif subjid == 'P20' %}
    {% assign subjmain='physics20' %}
@@ -109,13 +111,15 @@
           <td><a href='/docs/{{ subjid }}%20Lessons/{{ subjid }}%20Lessons%20pdf/{{ lessonid }}%20{{ lessontarg.title }}.pdf' target='newWindow'><i class="fa fa-lg fa-file-pdf-o" aria-hidden="true"></i> PDF</a></td>
           <td><a href='/docs/{{ subjid }}%20Lessons/{{ subjid }}%20Lessons%20docx/{{ lessonid }}%20{{ lessontarg.title }}.docx' target='newWindow'><i class="fa fa-lg fa-file-word-o" aria-hidden="true"></i> Word</a></td>
       </tr>
-      {% if answerkeys %}
       <tr>
           <td><strong>Answer Key</strong></td>
-          <td><a href='/docs/{{ subjid }}%20Answers/{{ subjid }}%20Answers%20pdf/{{ lessonid }}.pdf' target='newWindow'><i class="fa fa-lg fa-file-pdf-o" aria-hidden="true"></i> PDF</a></td>
-          <td><a href='/docs/{{ subjid }}%20Answers/{{ subjid }}%20Answers%20docx/{{ lessonid }}.docx' target='newWindow'><i class="fa fa-lg fa-file-word-o" aria-hidden="true"></i> Word</a></td>
+          {% if answerkeys == 1 %}
+             <td><a href='/docs/{{ subjid }}%20Answers/{{ subjid }}%20Answers%20pdf/{{ lessonid }}.pdf' target='newWindow'><i class="fa fa-lg fa-file-pdf-o" aria-hidden="true"></i> PDF</a></td>
+             <td><a href='/docs/{{ subjid }}%20Answers/{{ subjid }}%20Answers%20docx/{{ lessonid }}.docx' target='newWindow'><i class="fa fa-lg fa-file-word-o" aria-hidden="true"></i> Word</a></td>
+          {% else %}
+             <td colspan="2">No Answer Key for this lesson</td>
+          {% endif %}
       </tr>
-      {% endif %}
   </table>
 
   <nav class="pagination">

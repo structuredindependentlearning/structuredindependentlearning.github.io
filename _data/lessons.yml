@@ -28,6 +28,7 @@
   title: Honors Assignment
 - id: L04
   order: 4
+  answerkey: none
   subject: Physics 20
   subjectid: P20
   unit: Kinematics
@@ -42,6 +43,7 @@
   title: Acceleration Graph Analysis
 - id: L06
   order: 6
+  answerkey: none
   subject: Physics 20
   subjectid: P20
   unit: Kinematics
@@ -128,6 +130,7 @@
   order: 16
   subject: Physics 20
   subjectid: P20
+  type: Lesson
   type: Lesson
   unit: Dynamics
   title: Friction
@@ -292,6 +295,34 @@
   type: Lesson
   unit: Momentum
   title: Impulse Change in Momentum
+- id: L03A
+  order: 3
+  subject: Physics 30
+  subjectid: P30
+  type: Lesson
+  unit: Momentum
+  title: Energy Work and Power
+- id: L03B
+  order: 3
+  subject: Physics 30
+  subjectid: P30
+  type: Lesson
+  unit: Momentum
+  title: Conservation of Energy I
+- id: L03C
+  order: 3
+  subject: Physics 30
+  subjectid: P30
+  type: Lesson
+  unit: Momentum
+  title: Conservation of Energy II
+- id: L03H
+  order: 3
+  subject: Physics 30
+  subjectid: P30
+  type: Lesson
+  unit: Momentum
+  title: Conservation of Energy and Momentum
 - id: L04
   order: 4
   subject: Physics 30
@@ -397,6 +428,27 @@
   subjectid: P30
   type: Lesson
   title: Electric Current
+- id: L18A
+  order: 18
+  subject: Physics 30
+  unit: Electrostatics & Electric Fields
+  subjectid: P30
+  type: Lesson
+  title: Electric Circuits
+- id: L18B
+  order: 18
+  subject: Physics 30
+  unit: Electrostatics & Electric Fields
+  subjectid: P30
+  type: Lesson
+  title: Electric Power
+- id: L18H
+  order: 18
+  subject: Physics 30
+  unit: Electrostatics & Electric Fields
+  subjectid: P30
+  type: Lesson
+  title: RC circuits
 - id: L19
   order: 19
   subject: Physics 30
@@ -425,6 +477,13 @@
   subjectid: P30
   type: Lesson
   title: Generator effect
+- id: L22A
+  order: 22
+  subject: Physics 30
+  unit: Electromagnetism
+  subjectid: P30
+  type: Lesson
+  title: AC Power and transformers
 - id: L23
   order: 23
   subject: Physics 30
@@ -441,6 +500,7 @@
   title: Electromagnetic radiation
 - id: L25
   order: 25
+  answerkey: none
   subject: Physics 30
   subjectid: P30
   type: Lesson
@@ -504,6 +564,7 @@
   title: Wave particle nature
 - id: L34
   order: 34
+  answerkey: none
   subject: Physics 30
   subjectid: P30
   type: Lesson
@@ -537,6 +598,27 @@
   type: Lesson
   title: Quarks
   unit: Nuclear and Particle Physics
+- id: L39H
+  order: 39
+  subject: Physics 30
+  subjectid: P30
+  type: Lesson
+  title: Special Relativity
+  unit: Honors
+- id: L40H
+  order: 40
+  subject: Physics 30
+  subjectid: P30
+  type: Lesson
+  title: Thermodynamics
+  unit: Honors
+- id: L41H
+  order: 41
+  subject: Physics 30
+  subjectid: P30
+  type: Lesson
+  title: Fluid dynamics
+  unit: Honors
 - id: L1-1
   order: 1
   subject: Math 10c
@@ -924,6 +1006,7 @@
   title: Mass stoichiometry
 - id: L07
   order: 7
+  answerkey: none
   subject: Chemistry 20
   subjectid: C20
   unit: Nomenclature, chemical equations, mole concept, stoichiometry
@@ -931,6 +1014,7 @@
   title: Lab safety
 - id: L08
   order: 8
+  answerkey: none
   subject: Chemistry 20
   subjectid: C20
   unit: Nomenclature, chemical equations, mole concept, stoichiometry
@@ -980,6 +1064,7 @@
   title: Ionic bonding
 - id: L15
   order: 15
+  answerkey: none
   subject: Chemistry 20
   subjectid: C20
   unit: Solution chemistry, reactions in solution
@@ -1043,6 +1128,7 @@
   title: Rxs in solution
 - id: L24
   order: 24
+  answerkey: none
   subject: Chemistry 20
   subjectid: C20
   type: Lesson
@@ -1127,6 +1213,7 @@
   title: Limiting reactants
 - id: L36
   order: 36
+  answerkey: none
   subject: Chemistry 20
   subjectid: C20
   unit: Review
