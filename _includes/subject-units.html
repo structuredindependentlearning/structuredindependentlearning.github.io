@@ -38,6 +38,12 @@
         {% include card-item.html link-item=linkitem color='green' icon='globe' description=include.subject type='grid' title='Review' %}
     {% endif %}
 
+    {% if include.subject == 'Physics 30' %}
+        {% assign linkitem = '/lessons/' | append:subjpath | append:'/diploma' %}
+
+        {% include card-item.html link-item=linkitem color='green' icon='globe' description=include.subject type='grid' title='Diploma Exam Review' %}
+    {% endif %}
+
     {% if include.subject != 'Chemistry 20' %}
         {% assign linkitem = '/lessons/' | append:subjpath | append:'/videos' %}
 

@@ -131,68 +131,118 @@
 - subjectid: P30
   subject: Physics 30
   formats: doc
-  type: Review
+  type: Diploma
   title: Diploma Exam 1990 January
 - subjectid: P30
   subject: Physics 30
   formats: doc
-  type: Review
+  type: Diploma
   title: Diploma Exam 1990 June
 - subjectid: P30
   subject: Physics 30
   formats: doc
-  type: Review
+  type: Diploma
   title: Diploma Exam 1995 January
 - subjectid: P30
   subject: Physics 30
   formats: doc
-  type: Review
+  type: Diploma
   title: Diploma Exam 1995 June
 - subjectid: P30
   subject: Physics 30
   formats: doc
-  type: Review
+  type: Diploma
   title: Diploma Exam 1996 January
 - subjectid: P30
   subject: Physics 30
   formats: doc
-  type: Review
+  type: Diploma
   title: Diploma Exam 1996 June
 - subjectid: P30
   subject: Physics 30
   formats: doc
-  type: Review
+  type: Diploma
   title: Diploma Exam 1997 January
 - subjectid: P30
   subject: Physics 30
   formats: doc
-  type: Review
+  type: Diploma
   title: Diploma Exam 1997 June
 - subjectid: P30
   subject: Physics 30
   formats: doc
-  type: Review
+  type: Diploma
   title: Diploma Exam 1998 January
 - subjectid: P30
   subject: Physics 30
   formats: doc
-  type: Review
+  type: Diploma
   title: Diploma Exam 1998 June
 - subjectid: P30
   subject: Physics 30
   formats: doc
-  type: Review
+  type: Diploma
   title: Diploma Exam 2001 June
 - subjectid: P30
   subject: Physics 30
   formats: doc
-  type: Review
+  type: Diploma
   title: Diploma Exam 2003 2005 Examples Written Response
 - subjectid: P30
   subject: Physics 30
   formats: docx pdf
-  type: Review
+  type: Diploma
   title: Diploma Exam Review
+- subjectid: P30
+  subject: Physics 30
+  formats: pdf
+  type: Diploma
+  title: Diploma Exam 2015 Released items
+- subjectid: P30
+  subject: Physics 30
+  formats: pdf
+  type: Diploma
+  title: Diploma Exam 2015 2016 Bulletin
+- subjectid: P30
+  subject: Physics 30
+  formats: pdf
+  type: Diploma
+  title: Diploma Exam 2014 2015 Bulletin
+- subjectid: P30
+  subject: Physics 30
+  formats: pdf
+  type: Diploma
+  title: Diploma Exam 2013 Released items
+- subjectid: P30
+  subject: Physics 30
+  formats: pdf
+  type: Diploma
+  title: Diploma Exam 2013 2014 Bulletin
+- subjectid: P30
+  subject: Physics 30
+  formats: pdf
+  type: Diploma
+  title: Diploma Exam 2012 2013 Bulletin
+- subjectid: P30
+  subject: Physics 30
+  formats: pdf
+  type: Diploma
+  title: Diploma Exam 2011 2012 Bulletin
+- subjectid: P30
+  subject: Physics 30
+  formats: pdf
+  type: Diploma
+  title: Diploma Exam 2010 2011 Bulletin
+- subjectid: P30
+  subject: Physics 30
+  formats: pdf
+  type: Diploma
+  title: Diploma Exam 2009 Released items
+- subjectid: P30
+  subject: Physics 30
+  formats: pdf
+  type: Diploma
+  title: Diploma Exam 2007 Bulletin
 - subjectid: P30
   subject: Physics 30
   formats: docx
